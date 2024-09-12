@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e2f; /* Dark background for contrast */
+    color: #e5e5e5; /* Light text color */
+    padding: 30px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #2d2d44;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    color: #ff00b3;
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+
+section {
+    background-color: #3b3b58;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+section:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: #ff00b3;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #d3d3d3;
+    margin-bottom: 20px;
+}
+
+
+#lenia-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#lenia-info img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6);
+}
+
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+    color: #ff6b6b;
+    text-shadow: 0 0 10px #ff6b6b;
+}
+
+
+footer {
+    background-color: #2d2d44;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    color: #ffd700;
+    font-size: 1em;
+}
+
+/* Scroll-to-top Button */
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #ff6b6b;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.scroll-top:hover {
+    background-color: #ffd700;
+    transform: scale(1.1);
+}
+
+.scroll-top a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
